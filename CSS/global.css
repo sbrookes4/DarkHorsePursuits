@@ -1,0 +1,47 @@
+body{
+margin:0;
+overflow-x:hidden;
+width:100%;
+font-family: "Century Gothic", Helvetica, sans-serif;
+}
+
+.lineBreak{
+width:100%;
+height:1px;
+border:2px solid black;
+}
+
+.header, .footer{
+background-color:black;
+margin-bottom:0px;
+color:white;
+}
+
+.banner{
+height:30vh;
+}
+
+.pusuitsBanner,.footerBanner{
+width:50%;
+}
+
+
+.footer{
+padding:2vh 5vw 2vh 5vw;
+}
+
+.footerText{
+font-size:2vh;
+font-weight:600;
+float:right;
+margin-right:5vw;
+}
+
+@media only screen and (max-width:768px){
+
+.banner, .footerText{
+float:left;	
+margin-left:5vw;
+}
+
+}
